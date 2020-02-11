@@ -37,6 +37,6 @@ that you delete your `node_modules` directory first.
 
 If for some reason the build fails, start by remove the carets (^) in front of
 the version numbers in `package.json` as an initial troubleshooting step.
-Once you're sure it's not a version problem, remove the carets as version
+Once you're sure it's not a version problem, restore the carets as version
 locking often leads to major security issues in production. Remember to check
 your project for known issues with `npm audit fix`.
